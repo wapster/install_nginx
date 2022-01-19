@@ -28,7 +28,7 @@ do-release-upgrade
 ```
 ---
 
-1. Создаём пользователя `master` и задаём пароль
+### 1. Создаём пользователя `master` и задаём пароль
 ```
 useradd master
 ```
@@ -37,18 +37,18 @@ useradd master
 passwd
 ```
 
-2. Делаем так, чтобы пользователь мог выполнять команды через `sudo`
+### 2. Делаем так, чтобы пользователь мог выполнять команды через `sudo`
 ```
 usermod -a -G sudo master
 ```
 
-3. Устанавливаем оболочку по умолчанию (bash)
+### 3. Устанавливаем оболочку по умолчанию (bash)
 ```
 chsh -s /bin/bash master
 ```
 заходим на сервер под новым пользователем (master).
 
-4. Устанавливаем Nginx
+### 4. Устанавливаем Nginx
 по статье https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-20-04-ru
 ```
 sudo apt install nginx
