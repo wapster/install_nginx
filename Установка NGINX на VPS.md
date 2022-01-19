@@ -96,4 +96,3 @@ Nginx работает!
 ```
 http://your_server_ip
 ```
-![[4-4 success.jpg]]
