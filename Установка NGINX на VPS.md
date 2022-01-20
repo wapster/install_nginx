@@ -94,5 +94,6 @@ curl -4 icanhazip.com
 
 Nginx работает!
 ```
-http://your_server_ip
+http://185.128.107.135
+
 ```
